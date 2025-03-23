@@ -50,7 +50,7 @@ Tabs.Main:AddParagraph({
 })
 ```
 
-* criar botão
+* criar botão com dialogo
 
 ```
 Tabs.Main:AddButton({
@@ -65,6 +65,18 @@ Tabs.Main:AddButton({
                 { Title = "Cancel", Callback = function() print("Cancelled the dialog.") end }
             }
         })
+    end
+})
+```
+
+* criar botão normal
+
+``` Lua
+Tabs.Main:AddButton({
+    Title = "Button",
+    Description = "Very important button",
+    Callback = function()
+  print("botão executado")
     end
 })
 ```
