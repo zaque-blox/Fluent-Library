@@ -26,7 +26,7 @@ local Window = Fluent:CreateWindow({
 
 ``` Lua
 local Tabs = {
-    Main = Window:AddTab({ Title = "Main", Icon = "home" }),
+    Main = Window:AddTab({ Title = "Main", Icon = "" }),
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
 }
 ```
