@@ -52,7 +52,7 @@ Tabs.Main:AddParagraph({
 
 * criar botão com dialogo
 
-```
+``` lua
 Tabs.Main:AddButton({
     Title = "Button",
     Description = "Very important button",
@@ -186,7 +186,7 @@ end)
 
 * criar keybind
 
-```
+``` lua
 local Keybind = Tabs.Main:AddKeybind("Keybind", {
     Title = "KeyBind",
     Mode = "Toggle",
@@ -241,7 +241,7 @@ end)
 
 * criar saveSettings
 
-```
+``` lua
 SaveManager:SetLibrary(Fluent)
 InterfaceManager:SetLibrary(Fluent)
 
